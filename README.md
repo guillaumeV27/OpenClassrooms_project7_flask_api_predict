@@ -61,5 +61,5 @@ L'API est accessible à l'adresse suivante :
 
 ## 👨‍💻 Auteur Guillaume Vechambre
 
-Projet réalisé dans le cadre de la formation **Data Scientist d'OpenClassrooms**.
+Projet réalisé dans le cadre de la formation **Data Scientist**
 
