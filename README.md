@@ -58,6 +58,7 @@ L'API est accessible à l'adresse suivante :
 ├── data/
 ├── README.md
 └── ...
+```
 
 ## 👨‍💻 Auteur Guillaume Vechambre
 
