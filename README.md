@@ -58,3 +58,8 @@ L'API est accessible à l'adresse suivante :
 ├── data/
 ├── README.md
 └── ...
+
+## 👨‍💻 Auteur Guillaume Vechambre
+
+Projet réalisé dans le cadre de la formation **Data Scientist d'OpenClassrooms**.
+
