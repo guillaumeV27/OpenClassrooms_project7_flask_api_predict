@@ -1,26 +1,60 @@
-# Projet 7 — Implémentez un système de scoring
+# Projet 7 — Implémentation d'un modèle de scoring crédit
 
+## 📋 Présentation du projet
 
 Ce dépôt fait partie du **Projet 7 de la formation Data Scientist en alternance d'OpenClassrooms**.
 
-## Contexte du projet
-
 **« Prêt à dépenser »** est une société financière qui propose des crédits à la consommation à des personnes ayant **peu ou pas d'historique de crédit**.
 
-L'entreprise souhaite mettre en place un outil de **scoring crédit** permettant :
+L'entreprise souhaite mettre en place un outil de **scoring crédit** capable d'estimer le risque associé à une demande de prêt.
+
+---
+
+## 🎯 Objectif
+
+L'objectif est de développer un modèle de Machine Learning permettant :
 
 - d'estimer la probabilité qu'un client rembourse son crédit ;
-- d'évaluer le risque associé à une demande de prêt ;
-- de classifier automatiquement une demande en **crédit accordé** ou **crédit refusé**.
+- d'évaluer le risque de défaut du client ;
+- de classifier une demande en **crédit accordé** ou **crédit refusé** ;
+- de mettre le modèle à disposition à travers une **API REST**.
 
-## Objectif de ce dépôt
+---
 
-Ce dépôt contient le code permettant de **déployer le modèle de scoring sous la forme d'une API**, développée avec Flask.
+## 🚀 API de prédiction
 
-L'API permet d'envoyer les données nécessaires à la prédiction et d'obtenir en retour le résultat produit par le modèle de scoring.
+Ce dépôt contient le code permettant de **déployer le modèle de scoring sous la forme d'une API développée avec Flask**.
 
-## API
+L'API reçoit les informations nécessaires concernant un client et utilise le modèle entraîné afin de retourner une prédiction.
 
-L'API déployée est accessible à l'adresse suivante :
+### API déployée
 
-[Accéder à l'API](https://flask-api-predict.onrender.com/)
+L'API est accessible à l'adresse suivante :
+
+👉 [https://flask-api-predict.onrender.com/](https://flask-api-predict.onrender.com/)
+
+---
+
+## 🛠️ Technologies utilisées
+
+- Python
+- Flask
+- Scikit-learn
+- Pandas
+- NumPy
+- Git / GitHub
+- Render
+
+---
+
+## 📁 Structure du projet
+
+```text
+.
+├── app.py
+├── requirements.txt
+├── model/
+│   └── model.pkl
+├── data/
+├── README.md
+└── ...
