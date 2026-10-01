@@ -1,41 +1,43 @@
-# Projet 7 — Implémentation d'un modèle de scoring crédit
+# Project 7 — Credit Scoring Model Implementation
 
-## 📋 Présentation du projet
+[🇫🇷 Version française](README_FR.md)
 
-Ce dépôt fait partie du **Projet 7 de la formation Data Scientist en alternance d'OpenClassrooms**.
+## 📋 Project Overview
 
-**« Prêt à dépenser »** est une société financière qui propose des crédits à la consommation à des personnes ayant **peu ou pas d'historique de crédit**.
+This repository is part of **Project 7 of the OpenClassrooms Data Scientist apprenticeship program**.
 
-L'entreprise souhaite mettre en place un outil de **scoring crédit** capable d'estimer le risque associé à une demande de prêt.
+**"Prêt à dépenser"** is a financial company that provides consumer loans to people with **little or no credit history**.
 
----
-
-## 🎯 Objectif
-
-L'objectif est de développer un modèle de Machine Learning permettant :
-
-- d'estimer la probabilité qu'un client rembourse son crédit ;
-- d'évaluer le risque de défaut du client ;
-- de classifier une demande en **crédit accordé** ou **crédit refusé** ;
-- de mettre le modèle à disposition à travers une **API REST**.
+The company aims to implement a **credit scoring system** capable of assessing the risk associated with a loan application.
 
 ---
 
-## 🚀 API de prédiction
+## 🎯 Objective
 
-Ce dépôt contient le code permettant de **déployer le modèle de scoring sous la forme d'une API développée avec Flask**.
+The objective is to develop a Machine Learning model that can:
 
-L'API reçoit les informations nécessaires concernant un client et utilise le modèle entraîné afin de retourner une prédiction.
+- estimate the probability that a client will repay their loan;
+- assess the client's risk of default;
+- classify a loan application as **approved** or **rejected**;
+- make the model available through a **REST API**.
 
-### API déployée
+---
 
-L'API est accessible à l'adresse suivante :
+## 🚀 Prediction API
+
+This repository contains the code required to **deploy the credit scoring model as an API developed with Flask**.
+
+The API receives the required client information and uses the trained model to return a prediction.
+
+### Deployed API
+
+The API is available at:
 
 👉 [https://flask-api-predict.onrender.com/](https://flask-api-predict.onrender.com/)
 
 ---
 
-## 🛠️ Technologies utilisées
+## 🛠️ Technologies Used
 
 - Python
 - Flask
@@ -47,7 +49,7 @@ L'API est accessible à l'adresse suivante :
 
 ---
 
-## 📁 Structure du projet
+## 📁 Project Structure
 
 ```text
 .
@@ -60,7 +62,10 @@ L'API est accessible à l'adresse suivante :
 └── ...
 ```
 
-## 👨‍💻 Auteur Guillaume Vechambre
+---
 
-Projet réalisé dans le cadre de la formation **Data Scientist**
+## 👨‍💻 Author
 
+**Guillaume Vechambre**
+
+Project developed as part of the **OpenClassrooms Data Scientist program**.
